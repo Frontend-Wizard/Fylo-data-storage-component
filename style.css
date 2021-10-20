@@ -7,10 +7,6 @@
 	transition: all 0.25s ease-out;
 }
 
-html {
-	height: 100vh;
-}
-
 body {
 	height: 100vh;
 	display: flex;
@@ -64,7 +60,7 @@ nav ul li:hover {
 }
 
 main {
-	transform: translateY(10px);
+	transform: translateY(-10px);
 	display: flex;
 	align-items: flex-end;
 }
