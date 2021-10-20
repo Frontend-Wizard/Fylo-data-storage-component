@@ -7,6 +7,10 @@
 	transition: all 0.25s ease-out;
 }
 
+html {
+	height: 100vh;
+}
+
 body {
 	height: 100vh;
 	display: flex;
@@ -14,6 +18,7 @@ body {
 	align-items: center;
 	background-color: #0c122c;
 	background-image: url("Images/bg-desktop.png");
+	background-position: bottom;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: 100%;
@@ -59,7 +64,6 @@ nav ul li:hover {
 }
 
 main {
-	transform: translateY(10px);
 	display: flex;
 	align-items: flex-end;
 }
@@ -190,7 +194,7 @@ main {
 		}
 	}
 
-	html{
+	html {
 		min-width: 240px;
 		overflow-y: hidden;
 	}
