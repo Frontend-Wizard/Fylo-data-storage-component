@@ -180,6 +180,59 @@ main {
 	color: #dddbff;
 }
 
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.attribution {
+	display: flex;
+	position: absolute;
+	bottom: 4px;
+	font-size: 0.625rem;
+}
+
+.attribution p,
+.attribution a {
+	width: auto;
+	font-size: 15px;
+	color: #fff;
+}
+
+.attribution p:first-of-type {
+	margin-right: 0.3em;
+}
+
+.attribution a {
+	font-weight: bold;
+	background-image: linear-gradient(90deg, #ffa399 0%, #ff4d97 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+}
+
+.attribution a {
+	padding-bottom: 2px;
+	position: relative;
+	text-decoration: none;
+}
+
+.attribution a::after {
+	background: #f00;
+	background: linear-gradient(90deg, #ffa399 0%, #ff4d97 100%);
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 2px;
+	width: 100%;
+}
+
 @media screen and (max-width: 920px) {
 	@keyframes slideIn {
 		0% {
@@ -246,5 +299,14 @@ main {
 	.slider .background,
 	.slider .value {
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.attribution {
+		min-width: 220px;
+		margin-left: 0;
+		flex-direction: column;
+		text-align: center;
 	}
 }
