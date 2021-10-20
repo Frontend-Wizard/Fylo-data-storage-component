@@ -60,7 +60,6 @@ nav ul li:hover {
 }
 
 main {
-	transform: translateY(-10px);
 	display: flex;
 	align-items: flex-end;
 }
