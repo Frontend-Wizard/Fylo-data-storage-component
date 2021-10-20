@@ -6,7 +6,7 @@ This is a solution to the Fylo data storage component on Frontend Mentor. Fronte
 
 ### Screenshot
 
-![](Images/screenshot.jpg)
+![](Images/Screenshot.jpg)
 
 ### Links
 
