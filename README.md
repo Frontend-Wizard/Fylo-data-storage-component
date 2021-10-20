@@ -10,8 +10,8 @@ This is a solution to the Fylo data storage component on Frontend Mentor. Fronte
 
 ### Links
 
-- [Solution URL](https://github.com/Frontend-Wizard/Bookmark-landing-page)
-- [Live Site URL](https://frontend-wizard.github.io/Bookmark-landing-page)
+- [Solution URL](https://github.com/Frontend-Wizard/Fylo-data-storage-component)
+- [Live Site URL](https://frontend-wizard.github.io/Fylo-data-storage-component)
 
 ### Built with
 
